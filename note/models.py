@@ -10,7 +10,7 @@ class danshjo(models.Model):
     def __str__(self):
         return self.name
 
-
+# comment
 class notebock(models.Model):
     nameNote = models.CharField(max_length=50)
     text = models.CharField()
